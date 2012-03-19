@@ -1,6 +1,8 @@
 #summary Gesammelte Use Cases
 
 = Use Cases =
+<wiki:toc max_depth="1" />
+
 == Schwerpunkt Gerichte posten ==
 || UC#1 || Gericht posten ||
 || *Context of Use* || Nutzer hat typisches Gericht in Restaurant gefunden. ||
@@ -69,6 +71,24 @@
 || *Preconditions* || App installiert; Internetverbindung; System online ||
 || *Minimal Guarantees* || Feedback ||
 || *Success Guarantees* || Übersicht über eingetragene Gerichte des Restaurants ||
+|| _*Description*_ ||
+|| *Step* || *Action* ||
+|| step || action ||
+|| _*Extensions*_ ||
+|| *Step* || *Branching Action* ||
+|| step || action ||
+
+|| UC#9 || Gerichte in Nähe anzeigen ||
+|| *Context of Use* || Nutzer möchte wissen, welche Gerichte in seiner Nähe verfügbar sind ||
+|| *Scope* || Google Maps Api ||
+|| *Level* || Primary Task ||
+|| *Primary Actor* || Nutzer ||
+|| _*Stakeholder and Interests*_ ||
+|| *Stakeholder* || *Interest* ||
+|| Nutzer || Nutzer möchte wissen, welche Gerichte in seiner Nähe verfügbar sind ||
+|| *Preconditions* || App installiert; Internetverbindung; System online ||
+|| *Minimal Guarantees* || Feedback ||
+|| *Success Guarantees* || Übersicht über eingetragene Gerichte in Nähe ||
 || _*Description*_ ||
 || *Step* || *Action* ||
 || step || action ||
