@@ -76,6 +76,84 @@
 || *Step* || *Branching Action* ||
 || step || action ||
 
+== Schwerpunkt Korrektur ==
+
+|| UC#5 || Gericht in Restaurant als nicht mehr verfügbar melden ||
+|| *Context of Use* || Ein Nutzer stellt fest, dass ein Gericht in einem Restaurant nicht mehr verfügbar ist und möchte das Gericht entfernen ||
+|| *Scope* || - ||
+|| *Level* || Primary Task ||
+|| *Primary Actor* || Nutzer ||
+|| _*Stakeholder and Interests*_ ||
+|| *Stakeholder* || *Interest* ||
+|| Korrektor || Möchte nicht mehr verfügbares Gericht entfernen ||
+|| Nutzer || Möchte, dass alle Gerichte in App auch verfügbar sind ||
+|| Betreiber || Möchte Vandalismus einschränken ||
+|| *Preconditions* || App installiert; Internetverbindung; System online; Gericht eingetragen ||
+|| *Minimal Guarantees* || Feedback ||
+|| *Success Guarantees* || System über Nicht-Verfügbarkeit informiert ||
+|| _*Description*_ ||
+|| *Step* || *Action* ||
+|| step || action ||
+|| _*Extensions*_ ||
+|| *Step* || *Branching Action* ||
+|| step || action ||
+
+|| UC#6 || Restaurant aus System entfernen ||
+|| *Context of Use* || Nutzer stellt fest, dass ein Restaurant nicht mehr existiert ||
+|| *Scope* || - ||
+|| *Level* || Primary Task ||
+|| *Primary Actor* || Nutzer ||
+|| _*Stakeholder and Interests*_ ||
+|| *Stakeholder* || *Interest* ||
+|| Korrektor || Möchte nicht mehr existierendes Restaurant entfernen ||
+|| Nutzer || Möchte aktuelle Restaurants ||
+|| Betreiber || Möchte Vandalismus einschränken ||
+|| *Preconditions* || App installiert; Internetverbindung; System online; Restaurant eingetragen ||
+|| *Minimal Guarantees* || Feedback ||
+|| *Success Guarantees* || System über Nicht-Verfügbarkeit informiert ||
+|| _*Description*_ ||
+|| *Step* || *Action* ||
+|| step || action ||
+|| _*Extensions*_ ||
+|| *Step* || *Branching Action* ||
+|| step || action ||
+
+|| UC#7 || Gericht editieren ||
+|| *Context of Use* || Nutzer stellt fest, dass Angaben zu einem Gericht falsch/unvollständig sind. ||
+|| *Scope* || - ||
+|| *Level* || Primary Task ||
+|| *Primary Actor* || Nutzer ||
+|| _*Stakeholder and Interests*_ ||
+|| *Stakeholder* || *Interest* ||
+|| Nutzer || Nutzer möchte Angaben des Gerichts ändern ||
+|| *Preconditions* || App installiert; Internetverbindung; System online; Gericht eingetragen ||
+|| *Minimal Guarantees* || Feedback ||
+|| *Success Guarantees* || Gericht geändert ||
+|| _*Description*_ ||
+|| *Step* || *Action* ||
+|| step || action ||
+|| _*Extensions*_ ||
+|| *Step* || *Branching Action* ||
+|| step || action ||
+
+|| UC#8 || Restaurant editieren ||
+|| *Context of Use* || Nutzer stellt fest, dass Angaben zu einem Restaurant falsch/unvollständig sind. ||
+|| *Scope* || - ||
+|| *Level* || Primary Task ||
+|| *Primary Actor* || Nutzer ||
+|| _*Stakeholder and Interests*_ ||
+|| *Stakeholder* || *Interest* ||
+|| Nutzer || Nutzer möchte Angaben des Restaurants ändern ||
+|| *Preconditions* || App installiert; Internetverbindung; System online; Restaurant eingetragen ||
+|| *Minimal Guarantees* || Feedback ||
+|| *Success Guarantees* || Restaurant geändert ||
+|| _*Description*_ ||
+|| *Step* || *Action* ||
+|| step || action ||
+|| _*Extensions*_ ||
+|| *Step* || *Branching Action* ||
+|| step || action ||
+
 
 = Template =
 
