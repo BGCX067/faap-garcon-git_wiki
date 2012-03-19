@@ -1,13 +1,98 @@
 #summary Gesammelte Use Cases
 
-= Introduction =
+= Use Cases =
+== Schwerpunkt Gerichte posten ==
+|| UC#1 || Gericht posten ||
+|| *Context of Use* || Nutzer hat typisches Gericht in Restaurant gefunden. ||
+|| *Scope* || Google Maps Api verfügbar ||
+|| *Level* || Primary Task ||
+|| *Primary Actor* || Nutzer ||
+|| _*Stakeholder and Interests*_ ||
+|| *Stakeholder* || *Interest* ||
+|| Poster || möchte Gericht posten ||
+|| Betreiber || doppelte Einträge verhindern ||
+|| *Preconditions* || App installiert; Internetverbindung; System online ||
+|| *Minimal Guarantees* || keine Datenkorruption, erhält Feedback ||
+|| *Success Guarantees* || Gericht in Datenbank eingefügt ||
+|| _*Description*_ ||
+|| *Step* || *Action* ||
+|| step || action ||
+|| _*Extensions*_ ||
+|| *Step* || *Branching Action* ||
+|| step || action ||
 
-Add your content here.
+== Schwerpunkt Suchen ==
+|| UC#2 || Suche nach Restaurants in Nähe ||
+|| *Context of Use* || Nutzer möchte Restaurants mit landestypischem Essen in seiner Nähe finden ||
+|| *Scope* || Google Maps Api ||
+|| *Level* || Primary Task ||
+|| *Primary Actor* || Nutzer ||
+|| _*Stakeholder and Interests*_ ||
+|| *Stakeholder* || *Interest* ||
+|| Nutzer || möchte Restaurants finden ||
+|| *Preconditions* || App installiert; Internetverbindung; System online ||
+|| *Minimal Guarantees* || erhält Feedback ||
+|| *Success Guarantees* || Übersicht über Restaurants ||
+|| _*Description*_ ||
+|| *Step* || *Action* ||
+|| step || action ||
+|| _*Extensions*_ ||
+|| *Step* || *Branching Action* ||
+|| step || action ||
+
+|| UC#3 || Suche nach speziellem Gericht ||
+|| *Context of Use* || Nutzer möchte Restaurants in seiner Nähe mit dem angegebenen Gericht finden ||
+|| *Scope* || Google Maps Api ||
+|| *Level* || Primary Task ||
+|| *Primary Actor* || Nutzer ||
+|| _*Stakeholder and Interests*_ ||
+|| *Stakeholder* || *Interest* ||
+|| Nutzer || Restaurants mit Gericht in Nähe finden ||
+|| *Preconditions* || App installiert; Internetverbindung; System online ||
+|| *Minimal Guarantees* || Feedback ||
+|| *Success Guarantees* || Liste mit Restaurants ||
+|| _*Description*_ ||
+|| *Step* || *Action* ||
+|| step || action ||
+|| _*Extensions*_ ||
+|| *Step* || *Branching Action* ||
+|| step || action ||
+
+|| UC#4 || Suche nach speziellem Restaurant ||
+|| *Context of Use* || Nutzer möchte wissen, ob in einem speziellen Restaurant bereits landestypische Gerichte eingetragen sind ||
+|| *Scope* || - ||
+|| *Level* || Primary Task ||
+|| *Primary Actor* || Nutzer ||
+|| _*Stakeholder and Interests*_ ||
+|| *Stakeholder* || *Interest* ||
+|| Nutzer || Nutzer möchte wissen, ob in einem speziellen Restaurant bereits landestypische Gerichte eingetragen sind ||
+|| *Preconditions* || App installiert; Internetverbindung; System online ||
+|| *Minimal Guarantees* || Feedback ||
+|| *Success Guarantees* || Übersicht über eingetragene Gerichte des Restaurants ||
+|| _*Description*_ ||
+|| *Step* || *Action* ||
+|| step || action ||
+|| _*Extensions*_ ||
+|| *Step* || *Branching Action* ||
+|| step || action ||
 
 
-= Details =
+= Template =
 
-Add your content here.  Format your content with:
-  * Text in *bold* or _italic_
-  * Headings, paragraphs, and lists
-  * Automatic links to other wiki pages
+|| UC# || Name ||
+|| *Context of Use* || context ||
+|| *Scope* || scope ||
+|| *Level* || level ||
+|| *Primary Actor* || pc ||
+|| _*Stakeholder and Interests*_ ||
+|| *Stakeholder* || *Interest* ||
+|| sh || int ||
+|| *Preconditions* || pre ||
+|| *Minimal Guarantees* || min ||
+|| *Success Guarantees* || suc ||
+|| _*Description*_ ||
+|| *Step* || *Action* ||
+|| step || action ||
+|| _*Extensions*_ ||
+|| *Step* || *Branching Action* ||
+|| step || action ||
