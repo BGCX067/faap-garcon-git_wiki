@@ -4,3 +4,8 @@ Erste Mockups für das UI
 == Suche nach Restaurant und typischem Gericht ==
 http://wiki.faap-garcon.googlecode.com/git/images/mock_search_1.JPG
 == Suche nach Spezialität in Umgebung ==
+http://wiki.faap-garcon.googlecode.com/git/images/mock_search_2.JPG
+= Neues Gericht hinzufügen =
+http://wiki.faap-garcon.googlecode.com/git/images/mock_new_dish.JPG
+= Neues Restaurant und Verknüpfung Gericht&Restaurant =
+http://wiki.faap-garcon.googlecode.com/git/images/mock_new_rest.JPG
