@@ -1,4 +1,4 @@
-Erste Mockups für das UI
+Erste Mockups für das UI.
 
 = Suche =
 == Suche nach Restaurant und typischem Gericht ==
